@@ -21,8 +21,8 @@ parent.lastChild.textContent = 'Hey there!';
 // Parent node from child
 const child = document.querySelector('.child');
 
-output = child.parentNode; //div.parent
-output = child.parentElement; //div.parent
+output = child.parentNode; //parent <div> will be output
+output = child.parentElement; //parent <div> will be output
 
 child.parentNode.style.backgroundColor = '#ccc';
 child.parentNode.style.padding = '10px';
